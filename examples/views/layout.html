@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+{{#block "head"}}
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="/static/bundle.css">
+{{/block}}
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<h1><a href="/">{{site.title}}</a></h1>
+		<div>{{site.description}}</div>
+	</div>
+</header>
+
+<main id="main-content" role="main">
+	{{#block "body"}}{{/block}}
+</main>
+
+</body>
+</html>

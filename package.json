@@ -1,0 +1,29 @@
+{
+  "name": "hyperquest-director-handlebars-example-app",
+  "description": "Example app using hyperquest, director, handlebars and other modules from npm",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/hyperquest-director-handlebars.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "bundle-css": "rework-npm source.css | myth > static/bundle.css",
+    "watch-css": "nodemon -e css --ignore static/* --exec 'npm run bundle-css'",
+    "start": "nodemon -e js,html server.js & npm run watch-css"
+  },
+  "dependencies": {
+    "director": "~1.2.2",
+    "handlebars-layouts": "~0.1.3",
+    "hyperquest": "~0.2.0",
+    "handlebars": "~1.3.0",
+    "event-stream": "~3.1.0",
+    "skelestyle-typography": "0.0.4",
+    "st": "~0.2.5",
+    "normalize-css": "git://github.com/sethvincent/normalize-css"
+  },
+  "devDependencies": {
+    "rework-npm-cli": "0.0.1",
+    "myth": "~0.3.0",
+    "nodemon": "~1.0.14"
+  }
+}

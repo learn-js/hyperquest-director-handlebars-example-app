@@ -1,0 +1,7 @@
+@import "normalize-css";
+@import "skelestyle-typography";
+
+.container {
+	width: 70%;
+	margin: 0px auto;
+}
