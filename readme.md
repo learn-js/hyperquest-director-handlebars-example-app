@@ -11,7 +11,6 @@ Sign up for the Learn.js newsletter and you'll get the npm recipes book (and upd
 - [handlebars-layouts](https://npmjs.org/package/handlebars-layouts) - so we can have jade/django style layouts using handlebars
 - [st](https://www.npmjs.org/package/st) - for serving static files
 - [event-stream](https://www.npmjs.org/package/event-stream) - for working with the data stream we get back from hyperquest
-- [combine-streams](https://www.npmjs.org/package/combine-streams) - for combining multiple streams into one
 - [rework-npm-cli](https://www.npmjs.org/package/rework-npm-cli) - for bundling css files
 - [myth](https://www.npmjs.org/package/myth) - a preprocessor for our css
 - [normalize-css](https://github.com/sethvincent/normalize-css) - reset the css for the browser

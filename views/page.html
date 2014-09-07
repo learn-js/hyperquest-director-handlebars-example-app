@@ -3,7 +3,7 @@
 {{#replace "body"}}
 <div class="container">
   <h1>{{ tag.name }}</h1>
-  <p>All the pages on <a href="{{ wiki.url }}">{{ wiki.name }}</a> tagged with {{ tag.name }}</p>
+  <p>All pages on the <a href="{{ wiki.url }}">{{ wiki.name }}</a> tagged with <b>{{ tag }}</b>.</p>
   <div id="pages">
     {{#each pages}}
     <h2><a href="{{ ../wiki.url }}/{{ name }}" target="_blank">{{name}}</a></h2>

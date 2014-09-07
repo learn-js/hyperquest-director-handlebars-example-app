@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "director": "~1.2.2",
+    "event-stream": "~3.1.0",
+    "handlebars": "~1.3.0",
     "handlebars-layouts": "~0.1.3",
     "hyperquest": "~0.2.0",
-    "handlebars": "~1.3.0",
-    "event-stream": "~3.1.0",
+    "normalize-css": "^2.3.1",
     "skelestyle-typography": "0.0.4",
-    "st": "~0.2.5",
-    "normalize-css": "git://github.com/sethvincent/normalize-css"
+    "st": "~0.2.5"
   },
   "devDependencies": {
     "rework-npm-cli": "0.0.1",
